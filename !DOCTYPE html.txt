@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiAProperty - Solusi Properti Anda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #d4af37;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 20px;
+    }
+    .highlight {
+      background-color: #fff7d4;
+      border-left: 5px solid #d4af37;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GiAProperty</h1>
+    <p>Solusi Lengkap Dunia Properti Anda</p>
+  </header>
+
+  <nav>
+    <a href="#layanan">Layanan</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="layanan">
+    <h2>Layanan Kami</h2>
+    <div class="highlight">
+      <h3>Perantara Jual Tanah</h3>
+      <p>Kami bantu jual beli tanah secara cepat, aman, dan terpercaya.</p>
+    </div>
+    <div class="highlight">
+      <h3>Jasa Arsitektur</h3>
+      <p>Desain inovatif & fungsional untuk segala jenis bangunan.</p>
+    </div>
+    <div class="highlight">
+      <h3>Developer Properti</h3>
+      <p>Pembangunan properti dari nol hingga siap huni atau jual.</p>
+    </div>
+    <div class="highlight">
+      <h3>Konsultan Properti</h3>
+      <p>Dari legalitas, perizinan, hingga strategi pemasaran.</p>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang GiAProperty</h2>
+    <p>GiAProperty hadir sebagai solusi menyeluruh dalam dunia properti. Kami adalah perantara jual tanah, arsitek, developer, dan konsultan properti yang terpercaya dan profesional.</p>
+  </section>
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p><strong>Alamat:</strong><br>Desa Klagen Gambiran, RT 11 RW 02</p>
+    <p><strong>WhatsApp:</strong><br><a href="https://wa.me/6288805127950" target="_blank">0888-0512-7950</a></p>
+    <p><strong>Jam Operasional:</strong><br>
+      Senin – Jumat: 17.00 – 21.30 WIB<br>
+      Sabtu – Minggu: Dengan Perjanjian
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GiAProperty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
